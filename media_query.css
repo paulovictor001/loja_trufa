@@ -1,4 +1,10 @@
-@media screen and (max-width:780px) {
+@media screen and (max-width:1080px){
+    .produto{
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width:600px) {
     header{
         justify-content: center;
     }
@@ -18,9 +24,14 @@
     }
     #produtos {
         padding: 0.5em;
+        flex-direction: row;
+        gap: 0px;
     }
     .produto{
         max-width: 195px;
 
+    }
+    .produto:hover{
+        transform: none;
     }
 }

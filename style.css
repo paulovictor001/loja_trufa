@@ -48,21 +48,21 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 20px;
     padding: 2em;
     margin: auto;
     max-width: 1000px;
 }
 .produto{
     background-color: white;
-    /* flex-shrink: 1; */
     max-width: 300px;
     cursor: pointer;
     margin-bottom: 1em;
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.39);
 
 }
 
 .produto:hover{
-    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.39);
     transform: scale(1.07);
 }
 #produtos img{
