@@ -1,0 +1,26 @@
+@media screen and (max-width:780px) {
+    header{
+        justify-content: center;
+    }
+    #descriçao {
+        padding: 2em;
+        justify-content: center;
+    }
+   #logo{
+        margin-bottom: 80px;
+    }
+    #descriçao p{
+        text-align: center;
+    }
+    #descriçao h1{
+        font-size: 3em;
+        text-align: center;
+    }
+    #produtos {
+        padding: 0.5em;
+    }
+    .produto{
+        max-width: 195px;
+
+    }
+}

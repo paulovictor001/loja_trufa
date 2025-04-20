@@ -9,31 +9,55 @@ header{
     display: flex;
     align-items: center;
     height: 100px;
-    background-color: #fda726;
-    margin-bottom:50px;
+    background-color: #D7628C;
     padding: 0px 2em;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 
 }
+#descriçao{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em 0px;
+    margin-bottom: 15em;
+    background-color: #342D23;
+}
+#descriçao h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0.5em;
+    font-size: 3.5em;
+}
+#descriçao p{
+    font-family:  'Arial Narrow';
+    font-size: 1.4em;
+    max-width: 600px ;
+    line-height: 1.3em;
+    color: white;
+}
 #conteiner{
-    margin-bottom: 100px;
+    margin-bottom: 15em;
+}
+#logo{
+    max-width:300px ;
 }
 #produtos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 2em;
     padding: 2em;
     margin: auto;
     max-width: 1000px;
 }
 .produto{
     background-color: white;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     max-width: 300px;
     cursor: pointer;
+    margin-bottom: 1em;
 
 }
 
@@ -50,17 +74,17 @@ header{
 #descr h3{
     font-size: 1.3em;
     margin-bottom: 1.5em;
-    color: #ffd089;
+    color: #f56399;
 }
 #descr p{
     font-size: 1.5em;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fda726;
+    color: #f55b93;
 }
 footer{
     padding: 20px;
-    background-color: #fda726;
+    background-color: #D7628C;
     text-align: center;
 }
 footer a{
