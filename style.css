@@ -59,9 +59,7 @@ header{
     cursor: pointer;
     margin-bottom: 1em;
     box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.39);
-
 }
-
 .produto:hover{
     transform: scale(1.07);
 }
@@ -95,4 +93,22 @@ footer a{
 }
 footer a:hover{
     border-bottom: 1px solid white;
+}
+#desc{
+    margin-bottom: 1em;
+}
+#contato img{
+    padding: 4px;
+    border-radius:50% ;
+    border: 2px solid #342D23;
+    margin-left: 7px;
+}
+#contato img:hover{
+    padding: 4px;
+    border: 2px solid #00C638;
+    transition: 0.5;
+}
+#contato{
+    display: flex;
+    align-items:center;
 }
