@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 body{
     background-color: #ffffe3;
@@ -15,7 +16,6 @@ header{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-
 }
 #descriçao{
     display: flex;
@@ -73,6 +73,7 @@ header{
     font-size: 1.3em;
     margin-bottom: 1.5em;
     color: #f56399;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #descr p{
     font-size: 1.5em;
@@ -84,12 +85,14 @@ footer{
     padding: 20px;
     background-color: #D7628C;
     text-align: center;
+    font-weight: bold;
+    color: white;
 }
 footer a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 footer a:hover{
     border-bottom: 1px solid white;

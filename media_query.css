@@ -4,9 +4,22 @@
     }
 }
 
+@media screen and (max-width:770px) {
+    #descriçao p{
+        text-align: center;
+    }
+    #descriçao h1{
+        text-align: center;
+    }
+    #contato{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media screen and (max-width:600px) {
     header{
         justify-content: center;
+        padding: 0px;
     }
     #descriçao {
         padding: 2em;
